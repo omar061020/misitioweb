@@ -1,0 +1,135 @@
+*{
+    background-image: url(imagenes/fondo.jpg);
+    max-width: 100%;
+}
+#cabeza{
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    color: #00a7e9;
+    margin: 10px;
+    padding: 10px;
+    border-bottom: solid black;
+}
+#cabeza img{
+        border-radius: 50%;
+}
+h1{
+    text-shadow: 8px 9px 13px black;
+    background: white;
+    font-family: system-ui;
+}
+.intro01{
+    text-align: right;
+    margin: 10px;
+    padding: 10px;
+}
+#cuerpo1{
+    border: 5px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 10px;
+    padding: 9px;
+
+}
+.contenido1{
+    background:rgb(241, 224, 224);
+    width: 30%;
+    
+}
+.contenido1 h3{
+    background: orangered;
+    padding: 30px;
+    text-align: center;
+}
+.contenido1 p{
+    background: rgb(241, 224, 224);
+    text-align: center;
+}
+.contenido2{
+    background: rgb(183, 191, 194);
+    width: 30%;
+}
+.contenido2 h3{
+    text-align: center;
+    background: rgb(15, 115, 207);
+    padding: 30px;
+}
+.contenido2 p{
+    background: rgb(183, 191, 194);;
+    text-align: center;
+}
+.contenido3{
+    background: rgb(162, 233, 174);
+    width: 30%;
+}
+.contenido3 h3{
+    text-align: center;
+    background: rgb(76, 218, 76);
+    padding: 30px;
+}
+.contenido3 p{
+    background: rgb(162, 233, 174);
+    text-align: center;
+}
+#cuerpo1 img{
+    display: block;
+    image-rendering: crisp-edges;
+    margin: auto;
+    max-width: 30%;
+}
+#css{
+    background: white;
+}
+#cuerpo2 {
+    border: 5px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 10px;
+    padding: 9px;
+}
+.contenido01{
+    background:rgb(241, 224, 224);
+    width: 30%;
+    
+}
+.contenido01 h3{
+    text-align: center;
+    background: orangered;
+}
+.contenido02{
+    background: rgb(183, 191, 194);
+    width: 30%;
+}
+.contenido02 h3{
+    text-align: center;
+    background: rgb(15, 115, 207);
+}
+.contenido03{
+    background: rgb(162, 233, 174);
+    width: 30%;
+}
+.contenido03 h3{
+    text-align: center;
+    background: rgb(76, 218, 76);
+}
+#imgcasa{
+    max-width: 50%;
+    display: block;
+    margin: auto;
+    box-shadow: 8px 9px 4px grey;
+}
+#pie{
+    border-top: solid;
+    padding: 10px;
+    margin: 10px;
+}
+#pie p{
+    text-align: center;
+    background: whitesmoke;
+}
